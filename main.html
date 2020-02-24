@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.js" charset="utf-8"></script>
+  <script src="main.js" charset="utf-8"></script>
+  <title>Farewell Invitation</title>
+</head>
+<body>
+  <!-- Home Page -->
+  <div id="homePage">
+  <div id="title" class = "centre">
+  <img src="/images/broadwayLogo.png" alt="broadwayLogo" class="center">
+  </div>
+  <div id="description" class="center">
+  </div>
+  <input type="text" id="RollNo" placeholder="Enter Your Roll No">
+  <button type="button" class="btn btn-primary" onclick="search()">Search</button>
+  </div>
+
+  <!-- Invitation Page -->
+  <div id="invitationPage">
+    <div id="title" class = "centre">
+    <img src="/images/broadwayLogo.png" alt="broadwayLogo" class="centre">
+    </div>
+    <div class="invitation" style="padding-top: 75px">
+      <img id='invitation' alt="Invitation" class="center">
+    </div>
+    <div id = "albumPics" class="albumPics" style="padding-top: 75px">
+      <div class="column">
+        <img id='image1' alt="Image 1" style="width:50%; height:50%;">
+      </div>
+      <div class="column">
+        <img id='image2' alt="Image 2" style="width:50%; height:50%;">
+      </div>
+      <div class="column">
+        <img id='image3' alt="Image3" style="width:50%; height:50%;">
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+</body>
