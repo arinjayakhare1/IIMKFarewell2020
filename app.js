@@ -2,7 +2,7 @@ console.log("Hello World");
 
 const express = require('express');
 const path = require('path');
-const mongoose = require('mongoose');
+// const mongoose = require('mongoose');
 
 console.log("Kuchh to hua hai");
 
@@ -63,6 +63,6 @@ app.get('/', function(req, res){
 });
 
 //start server
-app.listen(3000, function(){
+app.listen(process.env.PORT || 3000, function(){
   console.log("server started at port 3000");
 });
